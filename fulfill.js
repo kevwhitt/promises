@@ -3,5 +3,5 @@ require('es6-promise');
 new Promise(function(fulfill, reject) {
 	return setTimeout(function() {
 		return fulfill('FULFILLED!');
-	  }, 450);
+	}, 400);
 }).then(console.log);
