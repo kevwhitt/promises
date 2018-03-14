@@ -1,5 +1,3 @@
-require('es6-promise');
-
 function alwaysThrows() {
     throw new Error("OH NOES");
 }

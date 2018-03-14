@@ -1,5 +1,3 @@
-require('es6-promise');
-
 function attachTitle(name) {
     return ("DR. " + name);
   }

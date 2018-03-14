@@ -1,5 +1,3 @@
-require('es6-promise');
-
 function parsePromised(json) {
     return new Promise(function (fulfill, reject) {
         try {
